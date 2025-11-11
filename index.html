@@ -199,61 +199,29 @@
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-content">
-          <!-- Column 1 -->
-          <div class="footer-column">
-            <ul class="footer-list">
-              <li class="footer-list-item">
-                Sed hendrerit nisl suscipit lectus commodo dignissim.
-              </li>
-              <li class="footer-list-item">
-                Fusce at erat sed ligula euismod molestie.
-              </li>
-              <li class="footer-list-item">
-                Nunc lobortis erat vitae accumsan fringilla.
-              </li>
-              <li class="footer-list-item">
-                Fusce in neque eu sem ullamcorper suscipit.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Column 2 -->
-          <div class="footer-column">
-            <ul class="footer-list">
-              <li class="footer-list-item">
-                Mauris finibus eros ac lectus efficitur, non volutpat nisi
-                interdum.
-              </li>
-              <li class="footer-list-item">
-                Cras non nunc sit amet urna rhoncus maximus.
-              </li>
-              <li class="footer-list-item">
-                Fusce auctor sapien facilisis tellus feugiat placerat.
-              </li>
-              <li class="footer-list-item">
-                Cras quis nisi ac velit luctus mollis.
-              </li>
-              <li class="footer-list-item">
-                Pellentesque viverra sem id risus tincidunt tempor.
-              </li>
-            </ul>
-          </div>
-
-          <!-- Column 3 -->
-          <div class="footer-column">
-            <ul class="footer-list footer-list-red">
-              <li class="footer-list-item">
-                In ac sapien sodales purus condimentum tempus.
-              </li>
-              <li class="footer-list-item">
-                Proin convallis eros ultricies, ultrices eros ac, sollicitudin
-                lectus.
-              </li>
-              <li class="footer-list-item">
-                Maecenas vitae nibh et libero fringilla volutpat.
-              </li>
-            </ul>
-          </div>
+          <form action="">
+            <h2>Leave a message for us</h2>
+            <div id="form-message" class="form-message"></div>
+            <div class="input-wrapper">
+              <input type="text" placeholder="Your Name" id="name" />
+            </div>
+            <div class="input-wrapper">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="input-wrapper">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
         </div>
 
         <div class="footer-bottom">
