@@ -124,7 +124,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Dragos**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@tlbdrgs](https://github.com/tlbdrgs)
 
 ## 🙏 Acknowledgments
 
