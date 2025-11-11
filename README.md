@@ -89,7 +89,6 @@ The site adapts to different screen sizes with the following breakpoints:
 - Gallery grid repositions 7th image to reduce rows on mobile
 - Engine cards stack vertically on smaller screens
 - Design section switches to single column on tablets
-- Footer adapts from 3 columns to single column
 
 ## 🎨 Customization
 
@@ -105,19 +104,6 @@ The site uses CSS custom properties for easy theme customization:
 }
 ```
 
-### Adding/Removing Gallery Images
-
-To add more images to the gallery:
-
-1. Add the image file to the `images/` folder
-2. Add a new `gallery-grid-item` in `index.html`:
-
-```html
-<div class="gallery-grid-item">
-  <img src="./images/your-image.jpg" alt="Description" />
-</div>
-```
-
 3. Adjust CSS grid rules in `style.css` if needed
 
 ### Contact Form
@@ -130,27 +116,9 @@ The footer includes a contact form with the following fields:
 
 Form submission can be integrated with your preferred backend service or email provider.
 
-## 🌍 Browser Support
-
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ⚠️ IE11 (limited support)
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 👨‍💻 Author
 
@@ -165,5 +133,3 @@ Contributions, issues, and feature requests are welcome!
 - Google Fonts for typography
 
 ---
-
-⭐ Star this repo if you found it helpful!
