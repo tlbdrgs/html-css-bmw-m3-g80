@@ -14,17 +14,6 @@ A modern, responsive landing page showcasing the BMW M3 G80 with engine specific
 - **Dynamic Navbar**: Changes color theme when overlapping the design section
 - **Smooth Scrolling**: Seamless navigation between sections
 
-## 📋 Table of Contents
-
-- [Demo](#demo)
-- [Installation](#installation)
-- [Structure](#structure)
-- [Technologies](#technologies)
-- [Responsive Breakpoints](#responsive-breakpoints)
-- [Customization](#customization)
-- [Browser Support](#browser-support)
-- [License](#license)
-
 ## 🌐 Demo
 
 Open `index.html` in your browser to view the site locally.
