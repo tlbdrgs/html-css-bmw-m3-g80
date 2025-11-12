@@ -23,7 +23,7 @@ Open `index.html` in your browser to view the site locally.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/bmw-m3-g80.git
+git clone https://github.com/tlbdrgs/bmw-m3-g80.git
 ```
 
 2. Navigate to the project directory:
